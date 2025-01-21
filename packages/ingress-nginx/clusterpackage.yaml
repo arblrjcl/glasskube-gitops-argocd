@@ -1,0 +1,19 @@
+apiVersion: packages.glasskube.dev/v1alpha1
+kind: Package
+metadata:
+  annotations:
+    packages.glasskube.dev/auto-update: "true"
+  creationTimestamp: null
+  name: ingress-nginx
+  namespace: default
+spec:
+  packageInfo:
+    name: ingress-nginx
+    repositoryName: glasskube
+    version: v1.9.6+1
+  suspend: false
+  values:
+    ingressClass:
+      value: nginx
+    ingressClassController:
+      value: ingress-nginx
