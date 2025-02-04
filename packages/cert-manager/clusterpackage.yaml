@@ -9,6 +9,6 @@ spec:
   packageInfo:
     name: cert-manager
     repositoryName: glasskube
-    version: v1.16.2+1
+    version: v1.17.0+2
   suspend: false
 
