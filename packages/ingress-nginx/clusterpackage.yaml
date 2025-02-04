@@ -10,7 +10,7 @@ spec:
   packageInfo:
     name: ingress-nginx
     repositoryName: glasskube
-    version: v1.9.6+1
+    version: v1.12.0+1
   suspend: false
   values:
     ingressClass:
